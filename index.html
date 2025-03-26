@@ -1,32 +1,124 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>我想睡觉！</title>
-<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>我得睡觉！</title>
+    <style>
+        html { 
+            font-size: 62.5%;
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+        body {
+            margin: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            line-height: 1.6;
+            color: #000;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        nav {
+            background: #000;
+            padding: 2rem 0;
+        }
+        nav table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        nav td {
+            padding: 1rem;
+            text-align: center;
+        }
+        .main-title {
+            background: #000;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 10rem;
+            margin: 0;
+            color: #fff;
+            font-family: '华文新魏';
+            line-height: 1.2;
+        }
+        .subtitle {
+            font-size: 3.6rem;
+            color: #fff;
+            margin: 1rem 0;
+        }
+        #time {
+            font-size: 3rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        footer {
+            padding: 3rem 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 1rem 0;
+        }
 
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 2.4rem;
+            transition: opacity 0.3s;
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+        @media (max-width: 768px) {
+            html { font-size: 50%; }
+            nav table { width: 100%; }
+            h1 { font-size: 6rem; }
+            .subtitle { font-size: 2.4rem; }
+            #time { font-size: 2rem; }
+        }
+    </style>
+</head>
 <body>
-	<center><h1>我想睡觉！</h1></center>
-	<center><h3>这是这个项目的主页</h3></center>
-	<center><h3 style="color: #FF0004">此网站仅用于个人研究学习，请勿用作商业或各种违法用途，本站对使用而造成的后果不承担责任！</h3></center>
-	<center><h3>&nbsp;</h3>
-	</center>
-	
-	<center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;涵</center>
-	<center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.3.26</center>
-	<hr>
-<center>
-		<table>
-		<tr>
-			<center><td><a href="create.html">
-	      <h1>生成&nbsp;</h1>
-		  </a></td>&nbsp;&nbsp;&nbsp;</center>
-		</tr>
-		<tr>
-			<td><h3><a href="update.html">网站更新日志</a></h3></td>
-		</tr>
-	</table>
-	</center>
+    <nav>
+        <div class="container">
+            <table>
+                <tr>
+                    <td><a href="https://git.涵.fun/siteway.html">INDEX</a></td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+
+    <div class="main-title">
+        <div class="container">
+            <h1>我要睡觉</h1>
+            <div class="subtitle">I NEED SLEEP&nbsp;</div>
+            <div class="subtitle"><img src="img/sleeper.png" alt="" height="139"></div>
+        </div>
+    </div>
+	<nav>
+        <div class="container" style="background: white">
+            <table>
+                <tr>
+                    <td><a href="create.html" style="color: black">创建</a></td>
+                    <td><a href="update.html" style="color: black">更新日志</a></td>
+                </tr>
+            </table>
+        </div>
+    </nav>
+
+    <footer>
+		<hr style="border: 2px solid">
+        <div class="container">
+            <p style="font-size: 1.8rem;">©2025 Hyberjustlove</p>
+            <p style="font-size: 24px;">此<span style="font-size: 14px">网站仅用于个人研究学习，请勿用作商业或各种违法用途，本站对使用而造成的后果不承担责任！</span></p>
+        </div>
+    </footer>
 </body>
 </html>
